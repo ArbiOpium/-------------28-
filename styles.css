@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .grid-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .item1 {
+    grid-column: span 0,5; 
+    grid-row: span 5; 
+  }
+  
+  .item2 {
+    grid-column: span 1;
+    grid-row: span 10; 
+  }
+  
+  .item3 {
+    grid-column: span 1;
+    grid-row: span 10;
+  }
+  
+  .item4 {
+    grid-column: span 1;
+    grid-row: span 15; 
+  }
+  
+  .item5 {
+    grid-column: span 1;
+    grid-row: span 2; 
+  }
+  
+  .item6 {
+    grid-column: span 1;
+    grid-row: span 5;
+  }
+  
+  .item7 {
+    grid-column: span 1;
+    grid-row: span 10; 
+  }
+  
+  .item8 {
+    grid-column: span 1;
+    grid-row: span 15;
+  }
+  
+  .item9 {
+    grid-column: span 1;
+    grid-row: span 15; 
+  }
+  
